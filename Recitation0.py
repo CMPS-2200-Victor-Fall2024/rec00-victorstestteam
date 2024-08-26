@@ -1,6 +1,6 @@
 #Recitation0
 
-
+'''please work'''
 def compute_table(gene):
     '''Expect that gene is a string.
     returns a list of indices. The jth index in the list indicates how many places to move the pattern if a mismatch occurs at position j.
