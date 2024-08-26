@@ -1,10 +1,6 @@
 #Recitation0
 
 
-'''In this recitation, you will complete the Knuth-Morris-Pratt string matching algorithm.
-I wrote the function compute_table, which tells you how much to shift the gene when a mismatch is found.
-You must complete the algorithm by completing the function, kmp.
-'''
 def compute_table(gene):
     '''Expect that gene is a string.
     returns a list of indices. The jth index in the list indicates how many places to move the pattern if a mismatch occurs at position j.
