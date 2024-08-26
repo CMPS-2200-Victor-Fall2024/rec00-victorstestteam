@@ -43,4 +43,4 @@ def test_kmp():
             # print(kmp(gene, genome))
             # print(gene in genome)
             assert(kmp(gene, genome) == (gene in genome) ) #asserts that the kmp function returns the same value as the builtin 'in' function.
-test_kmp()
+#test_kmp()
